@@ -1,5 +1,10 @@
 $(document).ready(function() {
-    $("#stream1_btn").on("click", function() {
+    $("#logoNav").click(function(){
+        $(".stream1").removeClass('highlight_stream');
+        $(".stream2").removeClass('highlight_stream');
+        $(".stream3").removeClass('highlight_stream');
+    });
+    $("#stream1_btn").click(function() {
         $(".stream1").removeClass('highlight_stream');
         $(".stream2").removeClass('highlight_stream');
         $(".stream3").removeClass('highlight_stream');
